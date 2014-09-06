@@ -32,7 +32,7 @@ import java.nio.file.Paths;
 public class SampleProgramImporter {
 
     static final Charset SOURCE_ENCODING = Charset.forName("EUC-JP");
-    static final Path SOURCE = Paths.get("/Users/ishikura/Desktop/src");
+    static final Path SOURCE = Paths.get("/Users/ishikura/Documents/ソフトウェア工学勉強会/src");
 
     public static void main(String[] args) throws IOException {
         Path destination = Paths.get("src/main/java/com/dodosoft/dpm");
